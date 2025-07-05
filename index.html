@@ -1,197 +1,410 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Michael McNiel's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Michael McNiel's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <span class="fa fa-desktop"></span>
+        </div>
+        <div class="content">
+          <div class="inner">
+            <h1>Michael McNiel</h1>
+            <p>Programmer / Homelabber / Tech Enthusiast</p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <video width="640" style="border-radius: 5px" controls>
+          <source src="videos/intro-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </header>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="fa fa-desktop"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Michael McNiel</h1>
-								<p>Programmer / Homelabber / Tech Enthusiast</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#projects">Projects</a></li>
-								<li><a href="#skills">Skills</a></li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
-					</header>
+      <!-- Main -->
+      <div id="main">
+        <!-- Intro -->
+        <article id="intro">
+          <h2 class="major">Intro</h2>
+          <span class="image main"
+            ><img
+              src="images/intro-picture.png"
+              width="960"
+              alt="A picture of me at my computer!"
+          /></span>
+          <p>
+            Hey there! I'm Michael McNiel and I'm currently a C# developer at
+            TIME Manufacturing in Waco, TX. I also am a student at TSTC Waco
+            working towards my Associate of Applied Science degree in Computer
+            Programming Technology.
+          </p>
+          <p>
+            I've been programming professionally and as a hobby for a combined
+            total of 5 years. I've always wanted to become a software developer
+            since middle school and, years later, I've decided to pursue my
+            dream and work towards what I've always wanted to do.
+          </p>
+          <p>
+            I'm a former Airman in the US Air Force and I love to mess with
+            anything tech related. I also like to edit videos in my free time
+            using Adobe Premiere Pro and make YouTube videos either for myself
+            or others. On top of that, I love to play games that inspired me to
+            gain an interest in programming in the first place like Halo 3, Star
+            Wars: KOTOR, and Deus Ex.
+          </p>
+        </article>
 
-				<!-- Main -->
-					<div id="main">
+        <!-- Projects -->
+        <article id="projects">
+          <h2 class="major">Projects</h2>
+          <p>
+            Here is a list of some of my favorite projects I've done. Take a
+            look at them individually or you can view them all by going to my
+            GitHub page directly!
+          </p>
+          <p>
+            <a href="https://github.com/mcmcniel" target="_blank"
+              >View GitHub Page</a
+            >
+          </p>
 
-						<!-- Intro -->
-							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" width="960" height="320" alt="A picture of me at my computer!" /></span>
-								<p>Hey there! I'm Michael McNiel and I'm currently a C# developer at TIME Manufacturing in Waco, TX. I also am a student at TSTC Waco working towards my Associate of Applied Science degree in Computer Programming Technology.</p>
-								<p>I've been programming professionally and as a hobby for a combined total of 5 years. I've always wanted to become a software developer since middle school and, years later, I've decided to pursue my dream and work towards what I've always wanted to do.</p>
-								<p>I'm a former Airman in the US Air Force and I love to mess with anything tech related. I also like to edit videos in my free time using Adobe Premiere Pro and make YouTube videos either for myself or others. On top of that, I love to play games that inspired me to gain an interest in programming in the first place like Halo 3, Star Wars: KOTOR, and Deus Ex.</p>
-							</article>
+          <hr />
 
-						<!-- Projects -->
-							<article id="projects">
-								<h2 class="major">Projects</h2>
-								<p>Here is a list of some of my favorite projects I've done. Take a look at them individually or you can view them all by going to my GitHub page directly!</p>
-								<p><a href="https://github.com/mcmcniel" target="_blank">View GitHub Page</a></p>
+          <div style="display: flex; flex-direction: row; gap: 20px">
+            <img
+              src="images/wheatfree.gif"
+              width="250"
+              height="250"
+              style="border-radius: 5px"
+            />
+            <div>
+              <h3><b>WheatFree</b></h3>
+              <p>
+                WheatFree is a gluten-free, mealkit delivery service similar to
+                other mealkit delivery services such as HelloFresh and
+                EveryPlate. This project includes full CRUD functionality. Some
+                include creating new customer orders in a SQLite database,
+                viewing inventory items and their quantities, editing existing
+                recipes for customers to order, and removing items that are no
+                longer being delivered.
+              </p>
+              <p>
+                <a href="https://github.com/mcmcniel/WheatFree" target="_blank"
+                  >Go To Project</a
+                >
+              </p>
+            </div>
+          </div>
 
-								<hr />
+          <hr />
 
-								<span class="image main"><img src="images/pic02.jpg" width="960" height="320" alt="Logo for WheatFree" /></span>
-								<h3><b>WheatFree</b></h3>
-								<p>WheatFree is a gluten-free, mealkit delivery service similar to other mealkit delivery services such as HelloFresh and EveryPlate. This project includes full CRUD functionality. Some include creating new customer orders in a SQLite database, viewing inventory items and their quantities, editing existing recipes for customers to order, and removing items that are no longer being delivered.</p>
-								<p><a href="https://github.com/mcmcniel/WheatFree" target="_blank">Go To Project</a></p>
+          <div style="display: flex; flex-direction: row; gap: 20px">
+            <img
+              src="images/rockyspace.gif"
+              width="250"
+              height="250"
+              style="border-radius: 5px"
+            />
+            <div>
+              <h3><b>Rocky Space</b></h3>
+              <p>
+                Rocky Space is an asteroids-like game built in MonoGame, a
+                framework for C#. This game was built from scratch without
+                assistance from a typical game engine such as Unity or Unreal
+                Engine. The physics and environment window was created from
+                scratch as well and not handled by premade assets.
+              </p>
+              <p>
+                <a
+                  href="https://github.com/mcmcniel/Rocky-Space"
+                  target="_blank"
+                  >Go To Project</a
+                >
+              </p>
+            </div>
+          </div>
 
-								<hr />
+          <hr />
 
-								<span class="image main"><img src="images/pic02.jpg" width="960" height="320" alt="Logo for Rocky Space" /></span>
-								<h3><b>Rocky Space</b></h3>
-								<p>Rocky Space is an asteroids-like game built in MonoGame, a framework for C#. This game was built from scratch without assistance from a typical game engine such as Unity or Unreal Engine. The physics and environment window was created from scratch as well and not handled by premade assets.</p>
-								<p><a href="https://github.com/mcmcniel/Rocky-Space" target="_blank">Go To Project</a></p>
+          <div style="display: flex; flex-direction: row; gap: 20px">
+            <img
+              src="images/activewear.gif"
+              width="250"
+              height="250"
+              style="border-radius: 5px"
+            />
+            <div>
+              <h3><b>ActiveWear Shirt Designer</b></h3>
+              <p>
+                The ActiveWear Shirt Designer is a shirt designer page meant to
+                be placed in a pre-existing website as a new feature. The
+                designer has different logos to choose from as well as a color
+                picker to customize your shirt further. It also handles user
+                orders and gathers required information from the customer.
+              </p>
+              <p>
+                <a
+                  href="https://github.com/mcmcniel/ActiveWear-Shirt-Designer"
+                  target="_blank"
+                  >Go To Project</a
+                >
+              </p>
+            </div>
+          </div>
 
-								<hr />
+          <hr />
+        </article>
 
-								<span class="image main"><img src="images/pic02.jpg" width="960" height="320" alt="Logo for ActiveWear Shirt Designer" /></span>
-								<h3><b>ActiveWear Shirt Designer</b></h3>
-								<p>The ActiveWear Shirt Designer is a shirt designer page meant to be placed in a pre-existing website as a new feature. The designer has different logos to choose from as well as a color picker to customize your shirt further. It also handles user orders and gathers required information from the customer.</p>
-								<p><a href="https://github.com/mcmcniel/ActiveWear-Shirt-Designer" target="_blank">Go To Project</a></p>
+        <!-- Skills -->
+        <article id="skills">
+          <h2 class="major">Skills & Experience</h2>
+          <span class="image main"
+            ><img
+              src="images/skills-picture.png"
+              width="960"
+              alt="A picture of my desk with tech and study materials"
+          /></span>
+          <h3><b>SKILLS, Frameworks, & preferred technologies</b></h3>
+          <p>
+            I'm able to work with any language or technology necessary to get
+            the job done, but I do have my favorites! Below are a list of
+            languages, frameworks, and technologies that I'm most comfortable
+            with.
+          </p>
 
-								<hr />
-							</article>
+          <section
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+            "
+          >
+            <ul>
+              <li>.NET Framework</li>
+              <li>C#</li>
+              <li>C/C++</li>
+              <li>HTML/CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>Jenkins</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Windows Environments</li>
+            </ul>
+            <div style="display: flex; flex-direction: row; gap: 7%">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-evenly;
+                "
+              >
+                <img
+                  alt="C# logo"
+                  src="images/csharp.png"
+                  width="70"
+                  height="70"
+                />
+                <img
+                  alt="C++ logo"
+                  src="images/cpp.png"
+                  width="70"
+                  height="70"
+                />
+                <img alt="C logo" src="images/c.png" width="70" height="70" />
+              </div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-evenly;
+                "
+              >
+                <img
+                  alt="HTML logo"
+                  src="images/html.png"
+                  width="70"
+                  height="70"
+                />
+                <img
+                  alt="CSS logo"
+                  src="images/css.png"
+                  width="70"
+                  height="70"
+                />
+                <img
+                  alt="JavaScript logo"
+                  src="images/javascript.png"
+                  width="70"
+                  height="70"
+                />
+              </div>
+            </div>
+          </section>
 
-						<!-- Skills -->
-							<article id="skills">
-								<h2 class="major">Skills & Experience</h2>
-								<span class="image main"><img src="images/pic03.jpg" width="960" height="320" alt="A picture of my desk with tech and study materials" /></span>
-								<h3><b>SKILLS, Frameworks, & preferred technologies</b></h3>
-								<p>I'm able to work with any language or technology necessary to get the job done, but I do have my favorites! Below are a list of languages, frameworks, and technologies that I'm most comfortable with.</p>
-								
-								<section style="display: flex; flex-direction: row; justify-content: space-between;">
-									<ul>
-										<li>.NET Framework</li>
-										<li>C#</li>
-										<li>C/C++</li>
-										<li>HTML/CSS</li>
-										<li>JavaScript</li>
-										<li>Bootstrap</li>
-										<li>Jenkins</li>
-										<li>Git</li>
-										<li>GitHub</li>
-										<li>Windows Environments</li>
-									</ul>
-									<div style="display: flex; flex-direction: row; gap: 7%;">
-										<div style="display: flex; flex-direction: column; justify-content: space-evenly;">
-											<img alt="C# logo" src="images/csharp.png" width="70" height="70" />
-											<img alt="C++ logo" src="images/cpp.png" width="70" height="70" />
-											<img alt="C logo" src="images/c.png" width="70" height="70" />
-										</div>
-										<div style="display: flex; flex-direction: column; justify-content: space-evenly;">
-											<img alt="HTML logo" src="images/html.png" width="70" height="70" />
-											<img alt="CSS logo" src="images/css.png" width="70" height="70" />
-											<img alt="JavaScript logo" src="images/javascript.png" width="70" height="70" />
-										</div>
-									</div>
-								</section>
-								
+          <hr />
 
-								<hr />
+          <h3><b>Experience</b></h3>
 
-								<h3><b>Experience</b></h3>
+          <br />
 
-								<br/>
+          <section>
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+              "
+            >
+              <div>
+                <h4>Programmer - <i>TIME Manufacturing, Inc.</i></h4>
+                <p style="margin: 0 0 5px 0"><i>07/2024 - Present</i></p>
+              </div>
+              <img
+                alt="TIME Manufacturing logo"
+                style="border-radius: 5px"
+                src="images/time-manufacturing.png"
+                width="100"
+                height="100"
+              />
+            </div>
+            <p style="margin-top: 5px">
+              Develop and maintain new or existing C# codebases for message
+              queues, ASP.NET MVC intranet sites, and in-house Windows GUI
+              applications. Implement new features for the Epicor ERP system to
+              streamline and automate daily functions of other employees.
+            </p>
+          </section>
 
-								<section>
-									<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
-										<div>
-											<h4>Programmer - <i>TIME Manufacturing, Inc.</i></h4>
-											<p style="margin: 0 0 5px 0;"><i>07/2024 - Present</i></p>
-										</div>
-										<img alt="TIME Manufacturing logo" style="border-radius: 5px;" src="images/time-manufacturing.png" width="100" height="100"/>
-									</div>
-									<p style="margin-top: 5px;">Develop and maintain new or existing C# codebases for message queues, ASP.NET MVC intranet sites, and in-house Windows GUI applications. Implement new features for the Epicor ERP system to streamline and automate daily functions of other employees.</p>
-								</section>
+          <br />
 
-								<br/>
+          <section>
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+              "
+            >
+              <div>
+                <h4>Computer Technician - <i>Moody ISD</i></h4>
+                <p style="margin: 0 0 5px 0">
+                  <i>05/2023 - 06/2024 (1 year 2 months)</i>
+                </p>
+              </div>
+              <img
+                alt="Moody ISD logo"
+                style="border-radius: 5px"
+                src="images/moody-isd.png"
+                width="100"
+                height="100"
+              />
+            </div>
+            <p style="margin-top: 5px">
+              Managed all computers on the Moody ISD campus and assisted the
+              systems administrator with networking issues. Repaired and
+              deployed any and all tech devices where necessary.
+            </p>
+          </section>
 
-								<section>
-									<div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;">
-										<div>
-											<h4>Computer Technician - <i>Moody ISD</i></h4>
-											<p style="margin: 0 0 5px 0;"><i>05/2023 - 06/2024 (1 year 2 months)</i></p>
-										</div>
-										<img alt="Moody ISD logo" style="border-radius: 5px;" src="images/moody-isd.png" width="100" height="100"/>
-									</div>
-									<p style="margin-top: 5px;">Managed all computers on the Moody ISD campus and assisted the systems administrator with networking issues. Repaired and deployed any and all tech devices where necessary.</p>
-								</section>
+          <hr />
 
-								<hr />
+          <h3><b>Education & Certifications</b></h3>
 
-								<h3><b>Education & Certifications</b></h3>
+          <br />
 
-								<br/>
+          <section>
+            <div>
+              <h4 style="margin: 0 0 5px 0">
+                AAS Computer Programming Technology -<i>TSTC Waco</i>
+              </h4>
+              <p><i>2025 (Anticipated)</i></p>
+            </div>
+            <div>
+              <h4 style="margin: 0 0 5px 0">CompTIA Network+</h4>
+              <p><i>04/2023 - 04/2026</i></p>
+            </div>
+          </section>
+        </article>
 
-								<section>
-									<div>
-										<h4 style="margin: 0 0 5px 0;">AAS Computer Programming Technology -<i>TSTC Waco</i></h4>
-										<p><i>2025 (Anticipated)</i></p>
-									</div>
-									<div>
-										<h4 style="margin: 0 0 5px 0;">CompTIA Network+</h4>
-										<p><i>04/2023 - 04/2026</i></p>
-									</div>
-								</section>
-								
-							</article>
+        <!-- Contact -->
+        <article id="contact">
+          <h2 class="major">Contact</h2>
+          <p>
+            Let's keep in touch! Send me an email or view my other socials
+            below.
+          </p>
+          <h4>
+            EMAIL:
+            <a href="mailto:mcmcniel@mymail.tstc.edu"
+              >mcmcniel@mymail.tstc.edu</a
+            >
+          </h4>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://github.com/mcmcniel"
+                target="_blank"
+                class="icon brands fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/michaelmcniel65"
+                target="_blank"
+                class="icon brands fa-linkedin"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+          </ul>
+        </article>
+      </div>
 
-						<!-- Contact -->
-						<article id="contact">
-							<h2 class="major">Contact</h2>
-							<p>Let's keep in touch! Send me an email or view my other socials below.</p>
-							<h4>EMAIL: <a href="mailto:mcmcniel@mymail.tstc.edu">mcmcniel@mymail.tstc.edu</a></h4>
-							<ul class="icons">
-								<li><a href="https://github.com/mcmcniel" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/michaelmcniel65" target="_blank" class="icon brands fa-linkedin"><span class="label">GitHub</span></a></li>
-							</ul>
-						</article>
-					</div>
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">
+          &copy; Michael McNiel. Design:
+          <a href="https://html5up.net" target="_blank">HTML5 UP</a>.
+        </p>
+      </footer>
+    </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Michael McNiel. Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a>.</p>
-					</footer>
+    <!-- BG -->
+    <div id="bg"></div>
 
-			</div>
-
-		<!-- BG -->
-			<div id="bg"></div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
